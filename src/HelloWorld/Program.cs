@@ -10,7 +10,7 @@ namespace HelloWorld
             string a = "Hello, World!";
             Console.WriteLine(a);
             string? userInput = Console.ReadLine();
-            Console.WriteLine("You wrote... " + userInput);
+            Console.WriteLine(a + ". You wrote... " + userInput);
         }
     }
 }
